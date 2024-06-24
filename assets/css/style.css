@@ -4793,7 +4793,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   .heading .heading-subtitle {
     font-family: var(--global--font-body);
     text-transform: capitalize;
-    color: var(--global--color-primary);
+    color: #13C5DD;
     font-size: 15px;
     font-weight: 700;
     line-height: 1;
@@ -5086,6 +5086,14 @@ ul.dropdown-menu > li.has-dropdown > a:before {
         @media screen and (max-width: 991.98px) {
           .slider .slide .slide-content .slide-headline {
             text-align: center; } }
+      .slider .slide .slide-content .slide-headline-2 {
+        font-family: var(--global--font-heading);
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #fff;
+        margin-bottom: 24px;
+        text-transform: capitalize; }
       .slider .slide .slide-content .slide-desc {
         font-family: var(--global--font-body);
         font-weight: 700;
@@ -5096,6 +5104,13 @@ ul.dropdown-menu > li.has-dropdown > a:before {
         @media screen and (max-width: 991.98px) {
           .slider .slide .slide-content .slide-desc {
             text-align: center; } }
+      .slider .slide .slide-content .slide-desc-2 {
+        font-family: var(--global--font-body);
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        color: #fff;
+        margin-bottom: 33px; }
       .slider .slide .slide-content .slide-action {
         margin-bottom: 0px; }
         @media screen and (max-width: 767.98px) {
@@ -7773,6 +7788,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
       color: var(--global--color-body);
       font-size: 15px;
       line-height: 26px;
+      text-align: justify;
       margin-bottom: 0; }
     .team-member .team-content .team-more a {
       height: 42px;
@@ -12955,7 +12971,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        background-color: var(--global--color-primary);
+        background-color: #13C5DD;
         color: var(--global--color-white);
         margin-right: 10px;
         border-radius: 50%;
@@ -13154,7 +13170,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
         padding-top: 70px;
         padding-bottom: 70px; } }
   .cta.cta-3 {
-    padding-top: 129px;
+    padding-top: 50px;
     padding-bottom: 0; }
 
 @media screen and (max-width:991.98px) {
