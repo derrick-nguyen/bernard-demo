@@ -7757,7 +7757,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
     .team-member .team-content .team-cat a {
       color: var(--global--color-primary);
       font-family: var(--global--font-body);
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 400;
       line-height: 28px;
       position: relative;
@@ -7924,7 +7924,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
         .team-modern .team-member .team-member-holder .team-content-holder .team-content .team-cat {
           margin-bottom: 13px; }
         .team-modern .team-member .team-member-holder .team-content-holder .team-content .team-desc p {
-          margin-bottom: 32px; }
+          margin-bottom: 0px; }
         .team-modern .team-member .team-member-holder .team-content-holder .team-content .team-social {
           -webkit-transition: 0.3s ease-in-out;
           -o-transition: 0.3s ease-in-out;
@@ -9551,7 +9551,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .widget-opening-hours {
   position: relative;
   overflow: hidden;
-  padding: 50px 40px 60px;
+  padding: 40px;
   border-radius: 8px 8px 0 8px;
   background-color: #f6f6f6; }
   @media screen and (max-width: 991.98px) {
@@ -14625,3 +14625,13 @@ ul.dropdown-menu > li.has-dropdown > a:before {
       margin-bottom: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
+.bookingForm {
+  
+  text-align: center;
+}
+
+/* Căn giữa iframe và cách lề trên và dưới 50px */
+.bookingForm iframe {
+  margin: 50px auto; /* Tự động căn giữa theo chiều ngang và cách lề trên dưới 50px */
+  display: block;    /* Đảm bảo rằng iframe được hiển thị như một khối */
+}
