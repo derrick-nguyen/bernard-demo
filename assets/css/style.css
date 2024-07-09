@@ -707,7 +707,7 @@ ul {
 .pl-100 {
   padding-left: 100px !important; }
 
-.pl-150 {
+.pl-100 {
   padding-left: 150px; }
 
 /* Postions */
@@ -14624,14 +14624,17 @@ ul.dropdown-menu > li.has-dropdown > a:before {
     .footer .footer-widget .footer-widget-title h5 {
       margin-bottom: 15px; } }
 
-/*# sourceMappingURL=style.css.map */
-.bookingForm {
-  
-  text-align: center;
-}
-
 /* Căn giữa iframe và cách lề trên và dưới 50px */
-.bookingForm iframe {
+.bookingForm {
   margin: 50px auto; /* Tự động căn giữa theo chiều ngang và cách lề trên dưới 50px */
   display: block;    /* Đảm bảo rằng iframe được hiển thị như một khối */
+  width: 600px;
 }
+@media only screen and (max-width: 600px) {
+  .bookingForm{
+    display: none;
+  } }
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+  .mobileBookingForm {
+    display: none;
+  }}
