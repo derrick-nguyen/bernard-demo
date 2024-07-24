@@ -1,0 +1,27 @@
+{ 
+    "account": { 
+        "account_name": "Vũ Hoàng Duy", 
+        "phone_office": "0944344333", 
+        "email": " vuhoangduy@getflycrm.com", 
+        "gender": 1, 
+        "billing_address_street": "107 Vĩnh Hưng, Hà Nội", 
+        "birthday": "14/12/1984"
+    },
+    "contacts": [ 
+        {
+        "first_name": "Vũ Hoàng Duy",
+        "email": "vuhoangduy@getflycrm.com",
+        "phone_mobile": "0944344333"
+        }
+    ],
+    "opportunity": {
+        "token_api": "mtYmK5kgAW",
+        "user_id": "",
+        "recipient": 1,
+        "opportunity_status": 1
+    },
+    "referrer": {
+        "utm_source": "CCG App",
+        "utm_campaign": "Contact Form"
+    }
+}
