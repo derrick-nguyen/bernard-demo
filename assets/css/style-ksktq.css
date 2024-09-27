@@ -1,0 +1,169 @@
+/* common */
+
+* {
+    box-sizing: border-box;
+    --primary-color: #0e204d;
+    --secondary-color: #ebab2c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.btn {
+    padding: 28px 24px;
+    border-radius: 8px 8px 0 8px;
+}
+
+/* banner */
+
+.banner {
+    background: url("https://w.ladicdn.com/60a651b7c4ec0f001367452b/ksqtq-banner-20240926094614-kcqbv.png")
+        no-repeat center;
+    background-size: 120%;
+    object-fit: contain;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-title {
+    font-size: 6.5rem;
+    line-height: 1.1;
+}
+
+/* btn */
+
+.btns {
+    display: flex;
+    gap: 30px;
+    margin-top: 33px;
+}
+
+.booking-btn {
+    background: #ffffff;
+    position: relative;
+}
+
+.booking-content,
+.hotline-content {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.booking-content {
+    color: var(--primary-color);
+}
+
+.booking-content::after,
+.hotline-content:after {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.booking-content::after {
+    background: var(--primary-color);
+}
+
+.hotline-content::after {
+    background: #fff;
+}
+
+.hotline-content {
+    color: #ffffff;
+}
+
+.hotline-btn {
+    border: 2px solid #fff;
+    width: auto;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.fa-circle {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+/* reason */
+
+.reason {
+    background: url("https://w.ladicdn.com/60a651b7c4ec0f001367452b/section-2-20240927035840-jicuq.png")
+        no-repeat center;
+    width: 100%;
+}
+
+.reason-content {
+    padding-top: 130px;
+}
+
+.reason-content,
+.reason-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason-title {
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.reason-detail {
+    list-style-type: circle;
+    font-size: 1.8rem;
+}
+
+.reason-detail::marker {
+    color: black;
+}
+
+.reason-cta {
+    padding: 60px 53px 60px 60px;
+    border-radius: 32px 0 0 32px;
+    box-shadow: 0 5px 83px 0 rgba(9, 29, 62, 0.15);
+}
+
+.reason-cta__title {
+    font-size: 1.8rem;
+}
+
+.docs-btn {
+    color: #fff;
+    background: var(--secondary-color);
+}
+
+/* đt width <767px */
+@media only screen and (max-width: 47.9375em) {
+    .banner {
+        background-size: 310%;
+    }
+}
+/* máy tính bảng: width >=768px and width <991px */
+
+@media only screen and (min-width: 48em) and (max-width: 61.9375em) {
+    .banner {
+        background-size: 210%;
+    }
+}
+
+/* desktop: width >=992px */
+
+@media only screen (min-width: 62em) {
+}
